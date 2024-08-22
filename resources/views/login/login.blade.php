@@ -24,7 +24,8 @@
 </head>
 <body>
     <div class="container full-height d-flex justify-content-center align-items-center ">
-        <form class="formcontainer w-50 h-30 border p-4 rounded-3"> 
+        <form class="formcontainer w-50 h-30 border p-4 rounded-3" method="POST" action="{{route('blog.login')}}"> 
+            @csrf
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp">

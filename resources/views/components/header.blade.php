@@ -35,7 +35,7 @@
                         </button>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
                             <li><a class="dropdown-item" href="{{route('blog.login')}}">Login</a></li>
-                            <li><a class="dropdown-item" href="{{route('blog.register')}}">Register</a></li>
+                            <li><a class="dropdown-item" href="{{route('blog.registers')}}">Register</a></li>
                             <li><a class="dropdown-item" href="#">Guest</a></li>
                         </ul>
                     </div>
